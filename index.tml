@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه اصلی</title>
+    <meta name="description" content="فروگاه محصولات دیجیتال" />
+    <meta name="keywords" content="لپتاپ ،موبایل ،هنزفری ،ساعت" />
+    <meta name="theme-color" content="#4f0033" />
+    <link rel="icon" href="assets/img/icon.png" type="img/png">
+    <link rel="stylesheet" href="assets/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- top -->
+        <div class="top" style="display: none;">
+            <!-- loc -->
+            <div class="loc">
+                <div class="img">
+                    <img src="assets/img/svg/loc.svg" alt="آدرس">
+                </div>
+                <p>ایران،تهران</p>
+            </div>
+
+            <!-- about -->
+            <div class="about">
+                <div class="phone">
+                    <div class="img">
+                        <img src="assets/img/svg/phone.svg" alt="شماره تماس">
+                    </div>
+                    <p>09151234567</p>
+                </div>
+                <div class="email">
+                    <div class="img">
+                        <img src="assets/img/svg/email.svg" alt="ایمیل">
+                    </div>
+                    <p>amir@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- bottom -->
+        <div class="bottom">
+            <!-- search -->
+            <div class="search">
+                <div class="img">
+                    <img src="assets/img/svg/search.svg" alt="تایید سرچ">
+                </div>
+                <input type="search" placeholder="دنبال چی میگردی؟">
+            </div>
+
+            <!-- logo -->
+            <div class="logo">
+                <div class="img">
+                    <img src="assets/img/svg/logo.svg" alt="فروشگاه">
+                </div>
+            </div>
+        </div>
+
+        <!-- nav -->
+        <nav>
+            <div class="container">
+                <!-- home -->
+                <div class="item">
+                    <a href="#">
+                        <div class="img"><img src="assets/img/svg/home.svg" alt="خانه"></div>
+                        <div class="title">
+                            <p>خانه</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- daste -->
+                <div class="item">
+                    <a href="#">
+                        <div class="img"><img src="assets/img/svg/daste.svg" alt="دسته بندی"></div>
+                        <div class="title">
+                            <p>دسته بندی</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- sabad -->
+                <div class="item">
+                    <a href="#">
+                        <div class="img"><img src="assets/img/svg/sabad.svg" alt="سبدخرید"></div>
+                        <div class="title">
+                            <p>سبدخرید</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- login -->
+                <div class="item">
+                    <a href="#">
+                        <div class="img"><img src="assets/img/svg/login.svg" alt="فروشگاه من"></div>
+                        <div class="title">
+                            <p>فروشگاه من</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="slider1">
+            <div class="swiper swiper-container1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/img/slider/1.png" class="swiper-img" loading="lazy">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/slider/2.png" class="swiper-img" loading="lazy">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/slider/1.png" class="swiper-img" loading="lazy">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="bottom">
+                <div class="prev prev1">
+                    <img src="assets/img/svg/prev.svg">
+                </div>
+                <div class="next next1">
+                    <img src="assets/img/svg/nex.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class="daste">
+            <div class="title">
+                <div class="img">
+                    <img src="assets/img/svg/dastetitle.svg" alt="دسته بندی">
+                </div>
+                <h3>دسته بندی</h3>
+            </div>
+            <div class="contend">
+                <div class="item">
+                    <div class="slid">
+                        <div class="img"><img src="assets/img/daste/laptop.png" alt="لپتاپ"></div>
+                    </div>
+                    <p>لپتاپ</p>
+                </div>
+
+                <div class="item">
+                    <div class="slid">
+                        <div class="img"><img src="assets/img/daste/mobile.png" alt="موبایل"></div>
+                    </div>
+                    <p>موبایل</p>
+                </div>
+
+                <div class="item">
+                    <div class="slid">
+                        <div class="img"><img src="assets/img/daste/hanz.png" alt="هنزفری"></div>
+                    </div>
+                    <p>هنزفری</p>
+                </div>
+
+                <div class="item">
+                    <div class="slid">
+                        <div class="img"><img src="assets/img/daste/wash.png" alt="ساعت"></div>
+                    </div>
+                    <p>ساعت</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider2">
+
+            <div class="title">
+                <div class="img">
+                    <img src="assets/img/svg/dastetitle.svg" alt="محصولات پرفروش">
+                </div>
+                <h3>محصولات پرفروش</h3>
+            </div>
+
+            <div class="swiper swiper-container2">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+
+                        <div class="box-kala">
+                            <div class="top">
+                                <img src="assets/img/slider2/img/laptop.jpg" alt="لپتاپ" title="لپتاپ">
+                            </div>
+                            <div class="center">
+                                <h4>لپتاپ فوق العاده کار آمد برای کار های عمومی</h4>
+                            </div>
+                            <div class="bottom">
+                                <div class="b-top">
+                                    <p>4.2</p>
+                                    <img src="assets/img/slider2/img/svg/star.svg" alt="امتیاز" title="امتیاز">
+                                </div>
+                                <div class="b-bottom">
+                                    <p>20,000,000</p>
+                                    <img src="assets/img/slider2/img/svg/toman.svg" alt="تومان">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <div class="box-kala">
+                            <div class="top">
+                                <img src="assets/img/slider2/img/laptop.jpg" alt="لپتاپ" title="لپتاپ">
+                            </div>
+                            <div class="center">
+                                <h4>لپتاپ فوق العاده کار آمد برای کار های عمومی</h4>
+                            </div>
+                            <div class="bottom">
+                                <div class="b-top">
+                                    <p>4.2</p>
+                                    <img src="assets/img/slider2/img/svg/star.svg" alt="امتیاز" title="امتیاز">
+                                </div>
+                                <div class="b-bottom">
+                                    <p>20,000,000</p>
+                                    <img src="assets/img/slider2/img/svg/toman.svg" alt="تومان">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <div class="box-kala">
+                            <div class="top">
+                                <img src="assets/img/slider2/img/laptop.jpg" alt="لپتاپ" title="لپتاپ">
+                            </div>
+                            <div class="center">
+                                <h4>لپتاپ فوق العاده کار آمد برای کار های عمومی</h4>
+                            </div>
+                            <div class="bottom">
+                                <div class="b-top">
+                                    <p>4.2</p>
+                                    <img src="assets/img/slider2/img/svg/star.svg" alt="امتیاز" title="امتیاز">
+                                </div>
+                                <div class="b-bottom">
+                                    <p>20,000,000</p>
+                                    <img src="assets/img/slider2/img/svg/toman.svg" alt="تومان">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <div class="box-kala">
+                            <div class="top">
+                                <img src="assets/img/slider2/img/laptop.jpg" alt="لپتاپ" title="لپتاپ">
+                            </div>
+                            <div class="center">
+                                <h4>لپتاپ فوق العاده کار آمد برای کار های عمومی</h4>
+                            </div>
+                            <div class="bottom">
+                                <div class="b-top">
+                                    <p>4.2</p>
+                                    <img src="assets/img/slider2/img/svg/star.svg" alt="امتیاز" title="امتیاز">
+                                </div>
+                                <div class="b-bottom">
+                                    <p>20,000,000</p>
+                                    <img src="assets/img/slider2/img/svg/toman.svg" alt="تومان">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <div class="box-kala">
+                            <div class="top">
+                                <img src="assets/img/slider2/img/laptop.jpg" alt="لپتاپ" title="لپتاپ">
+                            </div>
+                            <div class="center">
+                                <h4>لپتاپ فوق العاده کار آمد برای کار های عمومی</h4>
+                            </div>
+                            <div class="bottom">
+                                <div class="b-top">
+                                    <p>4.2</p>
+                                    <img src="assets/img/slider2/img/svg/star.svg" alt="امتیاز" title="امتیاز">
+                                </div>
+                                <div class="b-bottom">
+                                    <p>20,000,000</p>
+                                    <img src="assets/img/slider2/img/svg/toman.svg" alt="تومان">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <div class="box-kala">
+                            <div class="top">
+                                <img src="assets/img/slider2/img/laptop.jpg" alt="لپتاپ" title="لپتاپ">
+                            </div>
+                            <div class="center">
+                                <h4>لپتاپ فوق العاده کار آمد برای کار های عمومی</h4>
+                            </div>
+                            <div class="bottom">
+                                <div class="b-top">
+                                    <p>4.2</p>
+                                    <img src="assets/img/slider2/img/svg/star.svg" alt="امتیاز" title="امتیاز">
+                                </div>
+                                <div class="b-bottom">
+                                    <p>20,000,000</p>
+                                    <img src="assets/img/slider2/img/svg/toman.svg" alt="تومان">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="bottom">
+                <div class="prev prev2">
+                    <img src="assets/img/svg/prev1.svg">
+                </div>
+                <div class="next next2">
+                    <img src="assets/img/svg/nex1.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class="slider3">
+            <div class="title">
+                <div class="img">
+                    <img src="assets/img/svg/dastetitle.svg" alt="محصولات شگفت انگیز">
+                </div>
+                <h3>محصولات شگفت انگیز</h3>
+            </div>
+            <div class="swiper swiper-container3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box-kala">
+                            <div class="top">
+                                <img src="assets/img/slider3/laptop.jpg" alt="لپتاپ" title="لپتاپ">
+                            </div>
+                            <div class="center">
+                                <h4>لپتاپ فوق العاده کار آمد برای کار های عمومی</h4>
+                            </div>
+                            <div class="bottom">
+                                <div class="b-top">
+                                    <div class="bt-right">
+                                        <img src="assets/img/slider3/fori.svg" alt="ارسال سریع" title="ارسال سریع">
+                                        <p>ارستال سریع</p>
+                                    </div>
+                                    <div class="bt-left">
+                                        <p>4.2</p>
+                                        <img src="assets/img/slider2/img/svg/star.svg" alt="امتیاز" title="امتیاز">
+                                    </div>
+                                </div>
+                                <div class="b-bottom">
+                                    <div class="bb-right">
+                                        <p>25%</p>
+                                    </div>
+                                    <div class="bb-left">
+                                        <p>20,000,000</p>
+                                        <img src="assets/img/slider2/img/svg/toman.svg" alt="تومان">
+                                    </div>
+                                </div>
+                                <div class="bottomx2">
+                                    <p><del>15,000,000</del></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box-kala">
+                            <div class="top">
+                                <img src="assets/img/slider3/laptop.jpg" alt="لپتاپ" title="لپتاپ">
+                            </div>
+                            <div class="center">
+                                <h4>لپتاپ فوق العاده کار آمد برای کار های عمومی</h4>
+                            </div>
+                            <div class="bottom">
+                                <div class="b-top">
+                                    <div class="bt-right">
+                                        <img src="assets/img/slider3/fori.svg" alt="ارسال سریع" title="ارسال سریع">
+                                        <p>ارستال سریع</p>
+                                    </div>
+                                    <div class="bt-left">
+                                        <p>4.2</p>
+                                        <img src="assets/img/slider2/img/svg/star.svg" alt="امتیاز" title="امتیاز">
+                                    </div>
+                                </div>
+                                <div class="b-bottom">
+                                    <div class="bb-right">
+                                        <p>25%</p>
+                                    </div>
+                                    <div class="bb-left">
+                                        <p>20,000,000</p>
+                                        <img src="assets/img/slider2/img/svg/toman.svg" alt="تومان">
+                                    </div>
+                                </div>
+                                <div class="bottomx2">
+                                    <p><del>15,000,000</del></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box-kala">
+                            <div class="top">
+                                <img src="assets/img/slider3/laptop.jpg" alt="لپتاپ" title="لپتاپ">
+                            </div>
+                            <div class="center">
+                                <h4>لپتاپ فوق العاده کار آمد برای کار های عمومی</h4>
+                            </div>
+                            <div class="bottom">
+                                <div class="b-top">
+                                    <div class="bt-right">
+                                        <img src="assets/img/slider3/fori.svg" alt="ارسال سریع" title="ارسال سریع">
+                                        <p>ارستال سریع</p>
+                                    </div>
+                                    <div class="bt-left">
+                                        <p>4.2</p>
+                                        <img src="assets/img/slider2/img/svg/star.svg" alt="امتیاز" title="امتیاز">
+                                    </div>
+                                </div>
+                                <div class="b-bottom">
+                                    <div class="bb-right">
+                                        <p>25%</p>
+                                    </div>
+                                    <div class="bb-left">
+                                        <p>20,000,000</p>
+                                        <img src="assets/img/slider2/img/svg/toman.svg" alt="تومان">
+                                    </div>
+                                </div>
+                                <div class="bottomx2">
+                                    <p><del>15,000,000</del></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box-kala">
+                            <div class="top">
+                                <img src="assets/img/slider3/laptop.jpg" alt="لپتاپ" title="لپتاپ">
+                            </div>
+                            <div class="center">
+                                <h4>لپتاپ فوق العاده کار آمد برای کار های عمومی</h4>
+                            </div>
+                            <div class="bottom">
+                                <div class="b-top">
+                                    <div class="bt-right">
+                                        <img src="assets/img/slider3/fori.svg" alt="ارسال سریع" title="ارسال سریع">
+                                        <p>ارستال سریع</p>
+                                    </div>
+                                    <div class="bt-left">
+                                        <p>4.2</p>
+                                        <img src="assets/img/slider2/img/svg/star.svg" alt="امتیاز" title="امتیاز">
+                                    </div>
+                                </div>
+                                <div class="b-bottom">
+                                    <div class="bb-right">
+                                        <p>25%</p>
+                                    </div>
+                                    <div class="bb-left">
+                                        <p>20,000,000</p>
+                                        <img src="assets/img/slider2/img/svg/toman.svg" alt="تومان">
+                                    </div>
+                                </div>
+                                <div class="bottomx2">
+                                    <p><del>15,000,000</del></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box-kala">
+                            <div class="top">
+                                <img src="assets/img/slider3/laptop.jpg" alt="لپتاپ" title="لپتاپ">
+                            </div>
+                            <div class="center">
+                                <h4>لپتاپ فوق العاده کار آمد برای کار های عمومی</h4>
+                            </div>
+                            <div class="bottom">
+                                <div class="b-top">
+                                    <div class="bt-right">
+                                        <img src="assets/img/slider3/fori.svg" alt="ارسال سریع" title="ارسال سریع">
+                                        <p>ارستال سریع</p>
+                                    </div>
+                                    <div class="bt-left">
+                                        <p>4.2</p>
+                                        <img src="assets/img/slider2/img/svg/star.svg" alt="امتیاز" title="امتیاز">
+                                    </div>
+                                </div>
+                                <div class="b-bottom">
+                                    <div class="bb-right">
+                                        <p>25%</p>
+                                    </div>
+                                    <div class="bb-left">
+                                        <p>20,000,000</p>
+                                        <img src="assets/img/slider2/img/svg/toman.svg" alt="تومان">
+                                    </div>
+                                </div>
+                                <div class="bottomx2">
+                                    <p><del>15,000,000</del></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box-kala">
+                            <div class="top">
+                                <img src="assets/img/slider3/laptop.jpg" alt="لپتاپ" title="لپتاپ">
+                            </div>
+                            <div class="center">
+                                <h4>لپتاپ فوق العاده کار آمد برای کار های عمومی</h4>
+                            </div>
+                            <div class="bottom">
+                                <div class="b-top">
+                                    <div class="bt-right">
+                                        <img src="assets/img/slider3/fori.svg" alt="ارسال سریع" title="ارسال سریع">
+                                        <p>ارستال سریع</p>
+                                    </div>
+                                    <div class="bt-left">
+                                        <p>4.2</p>
+                                        <img src="assets/img/slider2/img/svg/star.svg" alt="امتیاز" title="امتیاز">
+                                    </div>
+                                </div>
+                                <div class="b-bottom">
+                                    <div class="bb-right">
+                                        <p>25%</p>
+                                    </div>
+                                    <div class="bb-left">
+                                        <p>20,000,000</p>
+                                        <img src="assets/img/slider2/img/svg/toman.svg" alt="تومان">
+                                    </div>
+                                </div>
+                                <div class="bottomx2">
+                                    <p><del>15,000,000</del></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="bottom bottomslid">
+                <div class="prev prev3">
+                    <img src="assets/img/svg/prev1.svg">
+                </div>
+                <div class="next next3">
+                    <img src="assets/img/svg/nex1.svg">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
